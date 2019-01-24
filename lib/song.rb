@@ -38,9 +38,7 @@ class Song
   end
 
   def self.alphabetical
-     @@all.each do |song|
-     song.sort_by { |a, b| a <=> b }
-    end
+     @@all.sort_by { |a, b| a <=> b }
   end
 
   def self.new_from_filename
