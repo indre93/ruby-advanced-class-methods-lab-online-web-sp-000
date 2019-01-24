@@ -38,9 +38,9 @@ class Song
   end
 
   def self.alphabetical
-    create_by_name(name).each do |song|
-      sorted = song.sort
-      sorted
+     @@all.each do |song|
+     sorted = song.sort!
+    
     end
   end
 
