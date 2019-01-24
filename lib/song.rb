@@ -41,6 +41,7 @@ class Song
     self.create_by_name.each do |song|
       sorted = song.sort
       sorted
+    end
   end
 
   def self.new_from_filename
