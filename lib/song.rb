@@ -40,7 +40,7 @@ class Song
   def self.alphabetical
      @@all.each do |song|
      sorted = song.sort!
-    
+
     end
   end
 
