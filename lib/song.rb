@@ -14,15 +14,31 @@ class Song
 
   end
 
-  def new_by_name
+  def self.new_by_name
 
   end
 
-  def find_by_name
+  def self.create_by_name
 
   end
 
-  def alphabetical
+  def self.find_or_create_by_name
+
+  end
+
+  def self.alphabetical
+
+  end
+
+  def self.new_from_filename
+
+  end
+
+  def self.create_from_filename
+
+  end
+
+  def self.destroy_all
 
   end
 
