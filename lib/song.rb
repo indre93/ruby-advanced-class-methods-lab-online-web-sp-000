@@ -45,8 +45,8 @@ class Song
     song = filename
     song.chomp(".mp3")
     data = song.split(" - ")
-    artist_name = song[0]
-    artist_name = song[1]
+    artist_name = data[0]
+    artist_name = data[1]
 
   end
 
